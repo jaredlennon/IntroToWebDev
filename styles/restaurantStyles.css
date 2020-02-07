@@ -1,0 +1,13 @@
+/*
+Creator: Jared Lennon
+Date created: 2/5/20
+Date last modified:
+*/
+
+header, footer {
+    background-color: #173F5F;
+    color: #ed553b;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
