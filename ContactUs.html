@@ -69,8 +69,22 @@
                 background-color: #fff;
                 resize: none;
             }
-            .namelabel, .emaillabel, .phonelabel, .reasonlabel, .visitedlabel, .contactlabel, .additionalinfo {
+            .reasonlabel, .visitedlabel, .contactlabel, .additionalinfo {
                 font-weight: bold;
+                margin: 0px 0px 8px 0px;
+            }
+            .namelabel, .emaillabel, .phonelabel {
+                font-weight: bold;
+                margin: 12px 0px 12px 0px;
+            }
+            .nameinput, .emailinput, .phoneinput {
+                padding: 0px;
+            }
+            #reason {
+                margin: 0px 0px 8px 0px;
+            }
+            #additionalinfo {
+                margin: 4px 0px 12px 0px;
             }
             nav .btn{
                 background-color: #ed553b;
@@ -126,14 +140,14 @@
 
             <div class="form-group row">
                 <label class="col-lg-1 namelabel" for="name">Name:</label>
-                <div class="col-lg-11">
+                <div class="col-lg-11 nameinput">
                     <input type="text" id="name" name="nameinput" /><br />
                 </div>
             </div>
 
             <div class="form-group row">
                 <label class="col-lg-1 emaillabel" for="email">Email:</label><br />
-                <div class="col-lg-11">
+                <div class="col-lg-11 emailinput">
                     <input type="text" id="email" name="email"><br />
                     <medium id="emailhelp" class="form-text text-muted">We'll never share your email with anyone else</small> <br />
                 </div>
@@ -141,7 +155,7 @@
 
             <div class="form-group row">
                 <label class="col-lg-1 phonelabel" for="phone">Phone:</label><br />
-                <div class="col-lg-11">
+                <div class="col-lg-11 phoneinput">
                     <input type="text" id="phone" name="phone"><br />
                 </div>
             </div>
